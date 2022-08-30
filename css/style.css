@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display+SC&family=Poppins:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "./left-bar.css";
+@import "./right-bar.css";
+@import "./reset.css";
+
+* {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.container-bg {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1000px) {
+  .container-bg {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .container-experiencia{
+    grid-template-columns: 1fr;
+  }
+.cargo-expriencia h4 {
+  margin-bottom: 5px;
+ }
+ .anos-empresa {
+  margin-bottom: 5px;
+ }
+ .cargo-expriencia p {
+  margin-bottom: 8px;
+ }
+ .icons-interesses {
+  grid-template-columns: 1fr;
+  padding-top: 0px;
+ }
+ .icons-interesses li {
+  gap: 20px;
+ }
+ .perfil-titulo {
+  padding: 40px 40px 10px 40px;
+ }
+ .texto-perfil {
+  margin-top: 20px;
+ }
+ .titulo-sobre {
+  margin: 0px 0px 10px 0px;
+ }
+}

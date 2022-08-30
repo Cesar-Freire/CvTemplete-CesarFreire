@@ -1,0 +1,159 @@
+
+/* Inciio Perfil */
+.perfil-titulo  {
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 40px;
+  color: #333;
+}
+
+.titulo-sobre  {
+  font-family: 'Roboto';
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #2a7da2;
+  margin: 20px 0px;
+}
+
+.texto-perfil {
+  font-family: 'Roboto';
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0px;
+  color: #333;
+  margin-bottom: 16px;
+}
+/* Fim Perfil */
+
+/* Inicio experiência */
+.perfil-experiencia {
+  font-family: 'Roboto';
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #2a7da2;
+  padding-left: 40px;
+}
+
+.container-experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 40px;
+}
+
+.anos-empresa {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-right: 20px;
+}
+
+.cargo-expriencia h4 {
+  color: #2a7da2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+}
+
+.cargo-expriencia p {
+  font-family: 'Poppins';
+  font-size: 0.775rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #333;
+  padding-right: 16px;
+  margin-bottom: 4px;
+}
+
+.skill-profisionais {
+  padding-top: 16px;
+}
+/* Fim experiência */
+
+/* Inicio HABILIDADE PROFISSIONAIS */
+.conainer-habilidade {
+  padding-right: 40px;
+}
+
+.habilidade-bg {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.habilidade-bg h4 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding-left: 40px;
+}
+
+.habilidade-bg {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidade-bg .porcent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
+}
+
+.habilidade-bg .porcent div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background: #03a9f4;
+}
+/* Fim HABILIDADE PROFISSIONAIS */
+
+/* Inicio interesses */
+.icons-interesses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.icons-interesses {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.icons-interesses li {
+  display: grid;
+  grid-template-columns: 20px 20px;
+  align-items: center;
+  padding-left: 40px;
+  gap: 10px;
+}
+
+.perfil-experiencia .skill-profisionais li {
+  color: #333;
+  font-weight: 500;
+}
+
+.icons-interesses .fa {
+  color: #03a9f4;
+  font-size: 18px;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+}
+/* Fim interesses */
